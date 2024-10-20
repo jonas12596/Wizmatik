@@ -19,7 +19,7 @@ const page = () => {
             />
           </figure>
           <h1 className="text-center px-4 text-[calc(.5rem_+_1vw)] leading-[calc(.85rem_+_1vw)] font-light">
-            <strong>Wizmatik</strong> is where the untold stories of New York City's graffiti
+            <strong>Wizmatik</strong> is where the untold stories of New York City&apos;s graffiti
             culture come to life. Through the lens of urban exploration, we
             capture the raw essence of the streets— documenting iconic tags,
             throw-ups, and murals that define the city’s underground art scene.
@@ -29,10 +29,10 @@ const page = () => {
             tribute to the legends of the past and the trailblazers of today.
             Our platform brings you closer to the heart of the graffiti world,
             with exclusive content that blends visuals with impactful
-            storytelling. Whether it's through TikTok, YouTube, or our
+            storytelling. Whether it&apos;s through TikTok, YouTube, or our
             soon-to-be-released zine, we are dedicated to preserving and sharing
             the vibrant history of street art in NYC. Every image is not just a
-            photograph— it's a piece of the city's artistic soul, captured,
+            photograph— it&apos;s a piece of the city&apos;s artistic soul, captured,
             curated, and shared by Wizmatik. Stay connected as we continue to
             document the art that makes the streets of New York a living canvas.
           </h1>
