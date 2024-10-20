@@ -18,7 +18,7 @@ const page = () => {
               alt="Wizmatik logo"
             />
           </figure>
-          <h1 className="text-center px-4 text-[calc(.5rem_+_1vw)] leading-[calc(.85rem_+_1vw)] font-light">
+          <h1 className="text-center px-4 text-[calc(.375rem_+_1vw)] leading-[calc(.85rem_+_1vw)] font-light">
             <strong>Wizmatik</strong> is where the untold stories of New York City&apos;s graffiti
             culture come to life. Through the lens of urban exploration, we
             capture the raw essence of the streets— documenting iconic tags,

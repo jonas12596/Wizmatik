@@ -35,7 +35,7 @@ const Page = () => {
             onSubmit={handleSubmit}
           >
             <input
-              className="p-2 border text-[calc(1rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
+              className="p-2 border text-[calc(.675rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
               type="text"
               placeholder="Name"
               autoComplete="off"
@@ -45,7 +45,7 @@ const Page = () => {
               onChange={handleChange}
             />
             <input
-              className="p-2 border text-[calc(1rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
+              className="p-2 border text-[calc(.675rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
               type="email"
               placeholder="Email"
               autoComplete="off"
@@ -55,7 +55,7 @@ const Page = () => {
               onChange={handleChange}
             />
             <input
-              className="p-2 border text-[calc(1rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
+              className="p-2 border text-[calc(.675rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
               type="text"
               placeholder="Subject"
               autoComplete="off"
@@ -65,7 +65,7 @@ const Page = () => {
               onChange={handleChange}
             />
             <textarea
-              className="p-2 resize-none border text-[calc(1rem_+_1vw)] outline-none placeholder:text-black/30 border-black w-full rounded-sm"
+              className="p-2 resize-none border text-[calc(.675rem_+_1vw)] outline-none placeholder:text-black/30 border-black w-full rounded-sm"
               placeholder="Your Message"
               autoComplete="off"
               rows="6"
@@ -76,7 +76,7 @@ const Page = () => {
             />
             <button
               type="submit"
-              className="w-full text-center text-[calc(1rem_+_1vw)] p-3 bg-black rounded-sm text-white uppercase font-medium"
+              className="w-full text-center text-[calc(.675rem_+_1vw)] p-3 bg-black rounded-sm text-white uppercase font-medium"
             >
               Submit
             </button>

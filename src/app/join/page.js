@@ -38,7 +38,7 @@ const Page = () => {
               alt="Wizmatik logo"
             />
           </figure>
-          <p className="capitalize font-medium text-[calc(1.25rem_+_1vw)] leading-[calc(1.25rem_+_1vw)] text-center py-4">
+          <p className="capitalize font-medium text-[calc(.75rem_+_1vw)] leading-[calc(1.25rem_+_1vw)] text-center py-4">
             Stay in the loop
             <br />
             with exclusive content,
@@ -50,7 +50,7 @@ const Page = () => {
             onSubmit={handleSubmit}
           >
             <input
-              className="p-2 border text-[calc(1rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
+              className="p-2 border text-[calc(.675rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
               type="text"
               placeholder="Name"
               autoComplete="off"
@@ -60,7 +60,7 @@ const Page = () => {
               onChange={handleChange}
             />
             <input
-              className="p-2 border text-[calc(1rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
+              className="p-2 border text-[calc(.675rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
               type="email"
               placeholder="Email"
               autoComplete="off"
@@ -70,12 +70,12 @@ const Page = () => {
               onChange={handleChange}
             />
             <div className="w-full flex items-center justify-center">
-              <p className="text-[calc(1rem_+_1vw)] leading-[calc(1rem_+_1vw)] font-medium">
+              <p className="text-[calc(.675rem_+_1vw)] leading-[calc(1rem_+_1vw)] font-medium">
                 Or
               </p>
             </div>
             <input
-              className="p-2 border text-[calc(1rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
+              className="p-2 border text-[calc(.675rem_+_1vw)] outline-none border-black w-full placeholder:text-black rounded-sm"
               type="tel"
               placeholder="Phone Number"
               autoComplete="off"
@@ -85,7 +85,7 @@ const Page = () => {
             />
             <button
               type="submit"
-              className="w-full text-center text-[calc(1rem_+_1vw)] p-3 bg-black rounded-sm text-white uppercase font-medium"
+              className="w-full text-center text-[calc(.675rem_+_1vw)] p-3 bg-black rounded-sm text-white uppercase font-medium"
             >
               Subscribe
             </button>

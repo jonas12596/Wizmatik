@@ -137,7 +137,7 @@ const Page = () => {
         <section className="main-section pt-[calc(5rem_+_1vw)] pb-2 container border-b-2 border-black">
           {heroImage && (
             <>
-              <h1 className="text-center text-[calc(3rem_+_1vw)] leading-[calc(3rem_+_1vw)] font-medium">
+              <h1 className="text-center text-[calc(1.75rem_+_1vw)] leading-[calc(1.75rem_+_1vw)] font-medium">
                 {`${heroImage.Title}, ${heroImage.Description}, `}
                 <br />
                 {`${new Date(heroImage.dateUploaded).getFullYear()} © wizmatik`}

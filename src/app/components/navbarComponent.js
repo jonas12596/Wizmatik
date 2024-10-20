@@ -25,16 +25,16 @@ const NavbarComponent = () => {
           {toggleMenu ? "Close" : "Menu"}
         </button>
         <ul className="hidden xl:flex items-center gap-[6rem]">
-          <li className="uppercase text-[calc(12px_+_1vw)] font-thin">
+          <li className="uppercase text-[calc(8px_+_1vw)] font-thin">
             <Link href="/join">Join</Link>
           </li>
-          <li className="uppercase text-[calc(12px_+_1vw)] font-thin">
+          <li className="uppercase text-[calc(8px_+_1vw)] font-thin">
             <Link href="/shop">Shop</Link>
           </li>
-          <li className="uppercase text-[calc(12px_+_1vw)] font-thin">
+          <li className="uppercase text-[calc(8px_+_1vw)] font-thin">
             <Link href="/about">About</Link>
           </li>
-          <li className="uppercase text-[calc(12px_+_1vw)] font-thin">
+          <li className="uppercase text-[calc(8px_+_1vw)] font-thin">
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
@@ -45,16 +45,16 @@ const NavbarComponent = () => {
               : "py-4 px-6 absolute left-0 top-[3rem] opacity-0 invisible w-full flex items-center justify-between border-b-2 border-black bg-white"
           }
         >
-          <li className="uppercase text-[calc(12px_+_1vw)] font-thin">
+          <li className="uppercase text-[calc(8px_+_1vw)] font-thin">
             <Link href="/join">Join</Link>
           </li>
-          <li className="uppercase text-[calc(12px_+_1vw)] font-thin">
+          <li className="uppercase text-[calc(8px_+_1vw)] font-thin">
             <Link href="/shop">Shop</Link>
           </li>
-          <li className="uppercase text-[calc(12px_+_1vw)] font-thin">
+          <li className="uppercase text-[calc(8px_+_1vw)] font-thin">
             <Link href="/about">About</Link>
           </li>
-          <li className="uppercase text-[calc(12px_+_1vw)] font-thin">
+          <li className="uppercase text-[calc(8px_+_1vw)] font-thin">
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
