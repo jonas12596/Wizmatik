@@ -140,30 +140,13 @@ const PhotoPage = ({ params }) => {
   if (loading) {
     return (
       <div className="container">
-        <NavbarComponent />
-        <main>
-          <div className="min-w-full h-screen flex items-center justify-center">
-            <h1 className="font-medium text-center text-[calc(2rem_+_1vw)] leading-[calc(2rem_+_1vw)]">
-              Wizmatik
-            </h1>
-          </div>
-        </main>
-      </div>
-    );
-  }
-
-  if (!photo) {
-    return (
-      <div className="container">
-        <NavbarComponent />
-        <main>
-          <div className="min-w-full h-screen flex items-center justify-center">
-            <h1 className="font-medium text-center text-[calc(2rem_+_1vw)] leading-[calc(2rem_+_1vw)]">
-              Photo not found
-            </h1>
-          </div>
-        </main>
-      </div>
+      <NavbarComponent />
+      <main className="p-6 container">
+        <div className="min-w-full h-screen flex items-center justify-center">
+          <p>wizmatik . . .</p>
+        </div>
+      </main>
+    </div>
     );
   }
 
@@ -172,20 +155,24 @@ const PhotoPage = ({ params }) => {
       <NavbarComponent />
       <main className="p-6 container">
         <section className="hero-section pt-[calc(5rem_+_1vw)] pb-2 container border-b-2 border-black">
-          <h1 className="text-center text-[calc(3rem_+_1vw)] leading-[calc(3rem_+_1vw)] font-medium">
-            {`${photo.Title}, ${photo.Description}, `}
-            <br />
-            {`${new Date(photo.dateUploaded).getFullYear()} © wizmatik`}
-          </h1>
-          <figure className="min-w-full h-auto py-8 flex items-center justify-center">
-            <Image
-              className="min-w-[50%] h-auto rounded-sm"
-              src={photo.imageUrl}
-              alt={photo.Description}
-              width={500}
-              height={300}
-            />
-          </figure>
+          {photo && (
+            <>
+              <h1 className="text-center text-[calc(3rem_+_1vw)] leading-[calc(3rem_+_1vw)] font-medium">
+                {`${photo.Title}, ${photo.Description}, `}
+                <br />
+                {`${new Date(photo.dateUploaded).getFullYear()} © wizmatik`}
+              </h1>
+              <figure className="min-w-full h-auto py-8 flex items-center justify-center">
+                <Image
+                  className="min-w-[50%] h-auto rounded-sm"
+                  src={photo.imageUrl}
+                  alt={photo.Description}
+                  width={500}
+                  height={300}
+                />
+              </figure>
+            </>
+          )}
         </section>
         <section className="gallery-section container">
           <div className="grid grid-cols-2 gap-4 py-6 lg:grid-cols-3">
