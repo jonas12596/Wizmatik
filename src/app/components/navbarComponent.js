@@ -33,7 +33,7 @@ const NavbarComponent = () => {
         </Link>
         <div
           onClick={handleMenuToggle}
-          className="w-[42px] h-[22px] flex items-center justify-between flex-col cursor-pointer"
+          className="xl:hidden w-[42px] h-[22px] flex items-center justify-between flex-col cursor-pointer"
         >
           <div
             className={
